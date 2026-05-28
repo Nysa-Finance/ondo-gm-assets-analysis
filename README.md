@@ -35,6 +35,8 @@ For each metric and chain, the following approach is applied:
 
 Outputs are written to `output/gaussian_distributions.csv` (fitted μ and σ parameters per metric per chain, plus histogram bin data) and `output/chain_distributions.png` (a 3-panel figure with overlapping ETH/BSC histograms and fitted curves).
 
+![ETH vs BSC Distribution Analysis](https://raw.githubusercontent.com/Nysa-Finance/ONDOGM-assets-analysis/main/output/chain_distributions.png)
+
 ### Phase 3 — Data Evaluation
 
 #### Chain Evaluation
