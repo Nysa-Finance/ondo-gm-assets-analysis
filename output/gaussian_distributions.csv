@@ -1,0 +1,94 @@
+section,metric,chain,transform,gaussian_mean,gaussian_std,n_assets,bin_start,bin_end,bin_label,frequency,density,gaussian_pdf
+PARAMS,Metric,Chain,Transform,Gaussian_Mean,Gaussian_Std,N_Assets,,,,,,
+PARAMS,Number of Holders,ETH,log10,1.565413,0.612436,265,,,,,,
+PARAMS,Number of Holders,BSC,log10,1.885271,0.573797,265,,,,,,
+PARAMS,Onchain Market Cap (USD),ETH,log10,5.524216,1.402165,167,,,,,,
+PARAMS,Onchain Market Cap (USD),BSC,log10,5.272705,1.234387,104,,,,,,
+PARAMS,Whale Concentration – Top 10 Holders,ETH,linear,98.182943,5.061775,265,,,,,,
+PARAMS,Whale Concentration – Top 10 Holders,BSC,linear,92.228113,8.630224,265,,,,,,
+,,,,,,,,,,,,
+BINS,Metric,Chain,,,,,Bin_Start,Bin_End,Bin_Label,Frequency,Density,Gaussian_PDF
+BINS,Number of Holders,ETH,log10,,,,1.0,1.9307,1–2,0,0.0,0.0141846
+BINS,Number of Holders,BSC,log10,,,,1.0,1.9307,1–2,0,0.0,0.0023139
+BINS,Number of Holders,ETH,log10,,,,1.9307,3.7276,2–4,0,0.0,0.01913454
+BINS,Number of Holders,BSC,log10,,,,1.9307,3.7276,2–4,3,0.00630017,0.00470716
+BINS,Number of Holders,ETH,log10,,,,3.7276,7.1969,4–7,26,0.02828071,0.02076397
+BINS,Number of Holders,BSC,log10,,,,3.7276,7.1969,4–7,1,0.00108772,0.00747329
+BINS,Number of Holders,ETH,log10,,,,7.1969,13.895,7–14,47,0.02647893,0.01812473
+BINS,Number of Holders,BSC,log10,,,,7.1969,13.895,7–14,13,0.00732396,0.009259
+BINS,Number of Holders,ETH,log10,,,,13.895,26.827,14–27,51,0.0148819,0.01272687
+BINS,Number of Holders,BSC,log10,,,,13.895,26.827,14–27,34,0.00992127,0.00895275
+BINS,Number of Holders,ETH,log10,,,,26.827,51.7947,27–52,42,0.0063478,0.00718853
+BINS,Number of Holders,BSC,log10,,,,26.827,51.7947,27–52,55,0.0083126,0.00675567
+BINS,Number of Holders,ETH,log10,,,,51.7947,100.0,52–100,47,0.00367924,0.00326647
+BINS,Number of Holders,BSC,log10,,,,51.7947,100.0,52–100,61,0.00477518,0.00397849
+BINS,Number of Holders,ETH,log10,,,,100.0,193.0698,100–193,23,0.00093255,0.00119387
+BINS,Number of Holders,BSC,log10,,,,100.0,193.0698,100–193,45,0.00182456,0.0018284
+BINS,Number of Holders,ETH,log10,,,,193.0698,372.7594,193–373,11,0.00023101,0.00035101
+BINS,Number of Holders,BSC,log10,,,,193.0698,372.7594,193–373,24,0.00050401,0.00065577
+BINS,Number of Holders,ETH,log10,,,,372.7594,719.6857,373–720,6,6.526e-05,8.303e-05
+BINS,Number of Holders,BSC,log10,,,,372.7594,719.6857,373–720,11,0.00011965,0.00018357
+BINS,Number of Holders,ETH,log10,,,,719.6857,1389.4955,720–1K,7,3.944e-05,1.579e-05
+BINS,Number of Holders,BSC,log10,,,,719.6857,1389.4955,720–1K,9,5.07e-05,4.009e-05
+BINS,Number of Holders,ETH,log10,,,,1389.4955,2682.6958,1K–3K,2,5.84e-06,2.42e-06
+BINS,Number of Holders,BSC,log10,,,,1389.4955,2682.6958,1K–3K,5,1.459e-05,6.84e-06
+BINS,Number of Holders,ETH,log10,,,,2682.6958,5179.4747,3K–5K,3,4.53e-06,3e-07
+BINS,Number of Holders,BSC,log10,,,,2682.6958,5179.4747,3K–5K,3,4.53e-06,9.1e-07
+BINS,Number of Holders,ETH,log10,,,,5179.4747,10000.0,5K–10K,0,0.0,3e-08
+BINS,Number of Holders,BSC,log10,,,,5179.4747,10000.0,5K–10K,1,7.8e-07,9e-08
+BINS,Onchain Market Cap (USD),ETH,log10,,,,10.0,37.2759,10–37,0,0.0,6.54e-05
+BINS,Onchain Market Cap (USD),BSC,log10,,,,10.0,37.2759,10–37,0,0.0,4.046e-05
+BINS,Onchain Market Cap (USD),ETH,log10,,,,37.2759,138.9495,37–139,1,5.889e-05,5.395e-05
+BINS,Onchain Market Cap (USD),BSC,log10,,,,37.2759,138.9495,37–139,0,0.0,4.208e-05
+BINS,Onchain Market Cap (USD),ETH,log10,,,,138.9495,517.9475,139–518,10,0.000158,3.77e-05
+BINS,Onchain Market Cap (USD),BSC,log10,,,,138.9495,517.9475,139–518,1,2.537e-05,3.533e-05
+BINS,Onchain Market Cap (USD),ETH,log10,,,,517.9475,1930.6977,518–2K,4,1.695e-05,2.231e-05
+BINS,Onchain Market Cap (USD),BSC,log10,,,,517.9475,1930.6977,518–2K,3,2.042e-05,2.394e-05
+BINS,Onchain Market Cap (USD),ETH,log10,,,,1930.6977,7196.8567,2K–7K,13,1.478e-05,1.118e-05
+BINS,Onchain Market Cap (USD),BSC,log10,,,,1930.6977,7196.8567,2K–7K,9,1.643e-05,1.309e-05
+BINS,Onchain Market Cap (USD),ETH,log10,,,,7196.8567,26826.958,7K–27K,11,3.36e-06,4.75e-06
+BINS,Onchain Market Cap (USD),BSC,log10,,,,7196.8567,26826.958,7K–27K,10,4.9e-06,5.78e-06
+BINS,Onchain Market Cap (USD),ETH,log10,,,,26826.958,100000.0,27K–100K,7,5.7e-07,1.71e-06
+BINS,Onchain Market Cap (USD),BSC,log10,,,,26826.958,100000.0,27K–100K,28,3.68e-06,2.06e-06
+BINS,Onchain Market Cap (USD),ETH,log10,,,,100000.0,372759.372,100K–373K,13,2.9e-07,5.2e-07
+BINS,Onchain Market Cap (USD),BSC,log10,,,,100000.0,372759.372,100K–373K,14,4.9e-07,5.9e-07
+BINS,Onchain Market Cap (USD),ETH,log10,,,,372759.372,1389495.4944,373K–1.4M,39,2.3e-07,1.3e-07
+BINS,Onchain Market Cap (USD),BSC,log10,,,,372759.372,1389495.4944,373K–1.4M,13,1.2e-07,1.4e-07
+BINS,Onchain Market Cap (USD),ETH,log10,,,,1389495.4944,5179474.6792,1.4M–5.2M,43,7e-08,3e-08
+BINS,Onchain Market Cap (USD),BSC,log10,,,,1389495.4944,5179474.6792,1.4M–5.2M,8,2e-08,3e-08
+BINS,Onchain Market Cap (USD),ETH,log10,,,,5179474.6792,19306977.2888,5.2M–19.3M,18,1e-08,1e-08
+BINS,Onchain Market Cap (USD),BSC,log10,,,,5179474.6792,19306977.2888,5.2M–19.3M,10,1e-08,0.0
+BINS,Onchain Market Cap (USD),ETH,log10,,,,19306977.2888,71968567.3001,19.3M–72.0M,8,0.0,0.0
+BINS,Onchain Market Cap (USD),BSC,log10,,,,19306977.2888,71968567.3001,19.3M–72.0M,6,0.0,0.0
+BINS,Onchain Market Cap (USD),ETH,log10,,,,71968567.3001,268269579.528,72.0M–268.3M,0,0.0,0.0
+BINS,Onchain Market Cap (USD),BSC,log10,,,,71968567.3001,268269579.528,72.0M–268.3M,2,0.0,0.0
+BINS,Onchain Market Cap (USD),ETH,log10,,,,268269579.528,1000000000.0,268.3M–1000.0M,0,0.0,0.0
+BINS,Onchain Market Cap (USD),BSC,log10,,,,268269579.528,1000000000.0,268.3M–1000.0M,0,0.0,0.0
+BINS,Whale Concentration – Top 10 Holders,ETH,linear,,,,55.0,58.2143,55.0–58.2%,0,0.0,0.0
+BINS,Whale Concentration – Top 10 Holders,BSC,linear,,,,55.0,58.2143,55.0–58.2%,2,0.00234801,9.24e-06
+BINS,Whale Concentration – Top 10 Holders,ETH,linear,,,,58.2143,61.4286,58.2–61.4%,0,0.0,0.0
+BINS,Whale Concentration – Top 10 Holders,BSC,linear,,,,58.2143,61.4286,58.2–61.4%,1,0.001174,4.01e-05
+BINS,Whale Concentration – Top 10 Holders,ETH,linear,,,,61.4286,64.6429,61.4–64.6%,1,0.001174,0.0
+BINS,Whale Concentration – Top 10 Holders,BSC,linear,,,,61.4286,64.6429,61.4–64.6%,0,0.0,0.00015148
+BINS,Whale Concentration – Top 10 Holders,ETH,linear,,,,64.6429,67.8571,64.6–67.9%,0,0.0,0.0
+BINS,Whale Concentration – Top 10 Holders,BSC,linear,,,,64.6429,67.8571,64.6–67.9%,2,0.00234801,0.00049817
+BINS,Whale Concentration – Top 10 Holders,ETH,linear,,,,67.8571,71.0714,67.9–71.1%,1,0.001174,1e-08
+BINS,Whale Concentration – Top 10 Holders,BSC,linear,,,,67.8571,71.0714,67.9–71.1%,1,0.001174,0.00142608
+BINS,Whale Concentration – Top 10 Holders,ETH,linear,,,,71.0714,74.2857,71.1–74.3%,0,0.0,2.4e-07
+BINS,Whale Concentration – Top 10 Holders,BSC,linear,,,,71.0714,74.2857,71.1–74.3%,3,0.00352201,0.00355336
+BINS,Whale Concentration – Top 10 Holders,ETH,linear,,,,74.2857,77.5,74.3–77.5%,3,0.00352201,4.85e-06
+BINS,Whale Concentration – Top 10 Holders,BSC,linear,,,,74.2857,77.5,74.3–77.5%,6,0.00704403,0.00770784
+BINS,Whale Concentration – Top 10 Holders,ETH,linear,,,,77.5,80.7143,77.5–80.7%,3,0.00352201,6.498e-05
+BINS,Whale Concentration – Top 10 Holders,BSC,linear,,,,77.5,80.7143,77.5–80.7%,18,0.02113208,0.01455345
+BINS,Whale Concentration – Top 10 Holders,ETH,linear,,,,80.7143,83.9286,80.7–83.9%,1,0.001174,0.00058127
+BINS,Whale Concentration – Top 10 Holders,BSC,linear,,,,80.7143,83.9286,80.7–83.9%,16,0.01878407,0.02391971
+BINS,Whale Concentration – Top 10 Holders,ETH,linear,,,,83.9286,87.1429,83.9–87.1%,3,0.00352201,0.00347591
+BINS,Whale Concentration – Top 10 Holders,BSC,linear,,,,83.9286,87.1429,83.9–87.1%,17,0.01995807,0.0342221
+BINS,Whale Concentration – Top 10 Holders,ETH,linear,,,,87.1429,90.3571,87.1–90.4%,5,0.00587002,0.013884
+BINS,Whale Concentration – Top 10 Holders,BSC,linear,,,,87.1429,90.3571,87.1–90.4%,17,0.01995807,0.04262014
+BINS,Whale Concentration – Top 10 Holders,ETH,linear,,,,90.3571,93.5714,90.4–93.6%,7,0.00821803,0.03705623
+BINS,Whale Concentration – Top 10 Holders,BSC,linear,,,,90.3571,93.5714,90.4–93.6%,33,0.03874214,0.04620434
+BINS,Whale Concentration – Top 10 Holders,ETH,linear,,,,93.5714,96.7857,93.6–96.8%,11,0.01291405,0.06608412
+BINS,Whale Concentration – Top 10 Holders,BSC,linear,,,,93.5714,96.7857,93.6–96.8%,39,0.04578616,0.04360165
+BINS,Whale Concentration – Top 10 Holders,ETH,linear,,,,96.7857,100.0,96.8–100.0%,230,0.27002096,0.07874513
+BINS,Whale Concentration – Top 10 Holders,BSC,linear,,,,96.7857,100.0,96.8–100.0%,110,0.12914046,0.03581675
