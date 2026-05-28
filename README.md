@@ -1,6 +1,6 @@
 # Ondo RWA Collateral Selection — BSC Analysis
 
-This repository contains the data pipeline and analysis used to evaluate Ondo tokenized assets across Ethereum (ETH) and BNB Chain (BSC), with the goal of selecting a collateral basket for a permissionless RWA lending protocol.
+This repository contains the data pipeline and analysis used to evaluate Ondo tokenized assets across Ethereum (ETH) and BNB Chain (BSC), with the goal of selecting the first chain to deploy and a collateral basket for a permissionless RWA lending protocol.
 
 ---
 
